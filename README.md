@@ -6,7 +6,7 @@ Projetos desenvolvidos na Trilha **Impulse** do NLW.
 ### Foco - Prática - Grupo
 
 
-### Front-end (Web)
+# Front-end (Web)
 - [React](https://pt-br.reactjs.org/) 
 - [Vite](https://vitejs.dev/)
 - [Headless UI](https://headlessui.dev/)
@@ -15,7 +15,7 @@ Projetos desenvolvidos na Trilha **Impulse** do NLW.
     - [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
     - [tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar)
 
-### Back-End
+# Back-End
 - SOLID
 - [Express](https://github.com/expressjs/express)
 - [Prisma](https://github.com/prisma/prisma)
@@ -25,7 +25,7 @@ Projetos desenvolvidos na Trilha **Impulse** do NLW.
     - [SWC](https://swc.rs/docs/usage/jest)
 - [Nodemailer](https://github.com/nodemailer/nodemailer)
 
-## Front-End (Mobile)
+# Front-End (Mobile)
 ...
 
 
