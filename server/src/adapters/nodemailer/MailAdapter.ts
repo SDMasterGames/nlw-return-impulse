@@ -1,12 +1,20 @@
 import { IMailAdapter, ISendMailData } from "../IMailAdapter";
 import nodemailer from "nodemailer";
 
+const host = process.env["SMTP_HOST"];
+const port = process.env["SMTP_PORT"];
+const user = process.env["SMTP_AUTH_USER"];
+const pass = process.env["SMTP_AUTH_PASS"];
+
+if (!host || !port || !user || !pass) {
+  throw new Error("Está faltando informações para o SMTP");
+}
 const transport = nodemailer.createTransport({
-  host: "smtp.mailtrap.io",
-  port: 2525,
+  host,
+  port: Number(port),
   auth: {
-    user: "91bc2b19eceece",
-    pass: "5e4bbcba2a7b89",
+    user,
+    pass,
   },
 });
 
