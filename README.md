@@ -11,7 +11,6 @@ Projetos desenvolvidos na Trilha **Impulse** do NLW.
 - [Vite](https://vitejs.dev/)
 - [Headless UI](https://headlessui.dev/)
 - [TailwindCSS](https://tailwindcss.com/) 
-    - Plugins: 
     - [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
     - [tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar)
 
