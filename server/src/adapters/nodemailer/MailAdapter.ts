@@ -12,7 +12,7 @@ const transport = nodemailer.createTransport({
 
 export class MailAdapter implements IMailAdapter {
   async sendMail({ body, subject }: ISendMailData): Promise<void> {
-    transport.sendMail({
+    await transport.sendMail({
       from: "Equipe Feedget <oi@feedget.com>",
       to: "SDMasterGames <sdmastergames@hotmail.com>",
       subject,
