@@ -2,6 +2,8 @@
 
 Projetos desenvolvidos na Trilha **Impulse** do NLW.
 
+Esta sendo usado o **Node** na versão **16.15.0 LTS**
+
 # Pilares 
 ### Foco - Prática - Grupo
 
