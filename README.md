@@ -17,7 +17,7 @@ Esta sendo usado o **Node** na versão **16.15.0 LTS**
     - [tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar)
 
 # Back-End
-- SOLID
+- [SOLID](https://www.youtube.com/watch?v=vAV4Vy4jfkc)
 - [Express](https://github.com/expressjs/express)
 - [Prisma](https://github.com/prisma/prisma)
     - Usando SQLite em modo Dev
