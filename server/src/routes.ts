@@ -8,18 +8,23 @@ import { PrismaFeedbackRepo } from "./repositories/prisma/PrismaFeedbackRepo";
 export const router = express.Router();
 
 router.post("/feedback", async (req, res) => {
-  const { comment, type, screenshot } = req.body;
+  try {
+    const { comment, type, screenshot } = req.body;
 
-  const submitFeedbackUseCase = new submitFeedback(
-    new PrismaFeedbackRepo(),
-    new MailAdapter()
-  );
+    const submitFeedbackUseCase = new submitFeedback(
+      new PrismaFeedbackRepo(),
+      new MailAdapter()
+    );
 
-  await submitFeedbackUseCase.execute({
-    comment,
-    type,
-    screenshot,
-  });
+    await submitFeedbackUseCase.execute({
+      comment,
+      type,
+      screenshot,
+    });
 
-  return res.status(201).send();
+    return res.status(201).send();
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send();
+  }
 });
