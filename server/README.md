@@ -165,11 +165,19 @@ o swc em comparação com o ts-jest é mais rapido na hora de compilar.
 ### Instalação
 
 ```bash
-npm i -D jest @swc/jest
+npm i -D jest @swc/jest @swc/core
+#ou
+yarn add -D jest @swc/jest @swc/core
+
 #caso esteja usando typescript instale essa dependencia
 npm i -D @types/jest ts-node
+#ou
+yarn add -D @types/jest ts-node
 
 npx jest --init
+#ou
+yarn jest --init
+
 ```
 
 para usar o swc é necessario alterar seu jest.config.ts adicionando a seguinte linha:
