@@ -30,9 +30,7 @@ Esta sendo usado o **Node** na versão **16.15.0 LTS**
 
 - Expo - SDK 44
 - Axios
-- React-Native
-- Typescript
-
-Aplicação Simples desenvolvendo o Widget para o mobile e integrando com o back-end
+- React Native
+- [Typescript](https://github.com/microsoft/TypeScript)
 
 
